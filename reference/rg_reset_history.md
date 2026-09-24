@@ -16,7 +16,7 @@ Invisibly, `TRUE`.
 ## Examples
 
 ``` r
-if (FALSE) { # \dontrun{
+old_opt <- options(rgrind.storage_dir = tempdir())
 rg_reset_history()
-} # }
+options(old_opt)
 ```

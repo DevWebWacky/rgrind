@@ -16,7 +16,9 @@ A data frame with columns `challenge_id`, `timestamp`, and `passed`.
 ## Examples
 
 ``` r
-if (FALSE) { # \dontrun{
+old_opt <- options(rgrind.storage_dir = tempdir())
 rg_get_history()
-} # }
+#> [1] challenge_id timestamp    passed      
+#> <0 rows> (or 0-length row.names)
+options(old_opt)
 ```

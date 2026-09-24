@@ -17,7 +17,8 @@ An integer: the current streak length in days.
 ## Examples
 
 ``` r
-if (FALSE) { # \dontrun{
+old_opt <- options(rgrind.storage_dir = tempdir())
 rg_get_streak()
-} # }
+#> [1] 0
+options(old_opt)
 ```

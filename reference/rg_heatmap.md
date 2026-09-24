@@ -17,7 +17,15 @@ Invisibly, a character vector of the rendered symbols.
 ## Examples
 
 ``` r
-if (FALSE) { # \dontrun{
+old_opt <- options(rgrind.storage_dir = tempdir())
 rg_heatmap()
-} # }
+#> 
+#> ── Last 28 Days 
+#> · · · · · · ·
+#> · · · · · · ·
+#> · · · · · · ·
+#> · · · · · · ·
+#> 
+#> · none ▪ 1 ▓ 2-3 █ 4+
+options(old_opt)
 ```

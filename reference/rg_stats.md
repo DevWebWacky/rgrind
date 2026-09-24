@@ -17,7 +17,13 @@ Invisibly, a list with `solved`, `total_challenges`, `attempts`,
 ## Examples
 
 ``` r
-if (FALSE) { # \dontrun{
+old_opt <- options(rgrind.storage_dir = tempdir())
 rg_stats()
-} # }
+#> 
+#> ── Your rgrind Stats ───────────────────────────────────────────────────────────
+#> ℹ Challenges solved: 0/10
+#> ℹ Total attempts: 0
+#> ℹ 🔥 Current streak: 0 days
+#> ℹ 🏆 Longest streak: 0 days
+options(old_opt)
 ```
