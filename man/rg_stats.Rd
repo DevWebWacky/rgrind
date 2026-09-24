@@ -15,8 +15,8 @@ Prints how many challenges you've solved, your total attempts, and
 your current and longest solving streaks.
 }
 \examples{
-\dontrun{
+old_opt <- options(rgrind.storage_dir = tempdir())
 rg_stats()
-}
+options(old_opt)
 
 }

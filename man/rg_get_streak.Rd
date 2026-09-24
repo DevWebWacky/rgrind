@@ -15,8 +15,8 @@ you've passed at least one challenge. A streak is still considered
 active if you solved something yesterday but haven't yet today.
 }
 \examples{
-\dontrun{
+old_opt <- options(rgrind.storage_dir = tempdir())
 rg_get_streak()
-}
+options(old_opt)
 
 }

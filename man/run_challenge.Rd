@@ -25,9 +25,9 @@ local solving streak. On any failure, shows details for the failed
 tests and a hint.
 }
 \examples{
-\dontrun{
+old_opt <- options(rgrind.storage_dir = tempdir())
 my_solution <- function(x) sum(x[x \%\% 2 == 0], na.rm = TRUE)
 run_challenge("sum_evens", my_solution)
-}
+options(old_opt)
 
 }

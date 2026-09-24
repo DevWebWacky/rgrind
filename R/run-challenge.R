@@ -15,10 +15,10 @@
 #'   passed) and `total` (total number of test cases).
 #'
 #' @examples
-#' \dontrun{
+#' old_opt <- options(rgrind.storage_dir = tempdir())
 #' my_solution <- function(x) sum(x[x %% 2 == 0], na.rm = TRUE)
 #' run_challenge("sum_evens", my_solution)
-#' }
+#' options(old_opt)
 #'
 #' @export
 run_challenge <- function(challenge_id, user_fun) {

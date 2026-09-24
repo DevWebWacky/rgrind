@@ -44,9 +44,9 @@ rg_log_attempt <- function(challenge_id, passed) {
 #'   `passed`.
 #'
 #' @examples
-#' \dontrun{
+#' old_opt <- options(rgrind.storage_dir = tempdir())
 #' rg_get_history()
-#' }
+#' options(old_opt)
 #'
 #' @export
 rg_get_history <- function() {
@@ -69,9 +69,9 @@ rg_get_history <- function() {
 #' @return Invisibly, `TRUE`.
 #'
 #' @examples
-#' \dontrun{
+#' old_opt <- options(rgrind.storage_dir = tempdir())
 #' rg_reset_history()
-#' }
+#' options(old_opt)
 #'
 #' @export
 rg_reset_history <- function() {
@@ -91,9 +91,9 @@ rg_reset_history <- function() {
 #' @return An integer: the current streak length in days.
 #'
 #' @examples
-#' \dontrun{
+#' old_opt <- options(rgrind.storage_dir = tempdir())
 #' rg_get_streak()
-#' }
+#' options(old_opt)
 #'
 #' @export
 rg_get_streak <- function() {
@@ -169,9 +169,9 @@ rg_longest_streak <- function() {
 #'   `attempts`, `current_streak`, and `longest_streak`.
 #'
 #' @examples
-#' \dontrun{
+#' old_opt <- options(rgrind.storage_dir = tempdir())
 #' rg_stats()
-#' }
+#' options(old_opt)
 #'
 #' @export
 rg_stats <- function() {
@@ -215,9 +215,9 @@ rg_heatmap_symbol <- function(n_solves) {
 #' @return Invisibly, a character vector of the rendered symbols.
 #'
 #' @examples
-#' \dontrun{
+#' old_opt <- options(rgrind.storage_dir = tempdir())
 #' rg_heatmap()
-#' }
+#' options(old_opt)
 #'
 #' @export
 rg_heatmap <- function() {

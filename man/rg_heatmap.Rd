@@ -15,8 +15,8 @@ each day over the last 28 days, similar in spirit to GitHub's
 contribution graph.
 }
 \examples{
-\dontrun{
+old_opt <- options(rgrind.storage_dir = tempdir())
 rg_heatmap()
-}
+options(old_opt)
 
 }

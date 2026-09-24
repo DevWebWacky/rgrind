@@ -14,8 +14,8 @@ Permanently deletes your locally stored attempt history, including
 streak data. This cannot be undone.
 }
 \examples{
-\dontrun{
+old_opt <- options(rgrind.storage_dir = tempdir())
 rg_reset_history()
-}
+options(old_opt)
 
 }

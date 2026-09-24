@@ -15,8 +15,8 @@ Returns every attempt you've made across all challenges, including
 both passes and failures, stored locally on your machine.
 }
 \examples{
-\dontrun{
+old_opt <- options(rgrind.storage_dir = tempdir())
 rg_get_history()
-}
+options(old_opt)
 
 }
