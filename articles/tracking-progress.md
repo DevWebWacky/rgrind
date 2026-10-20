@@ -104,7 +104,7 @@ timestamps, you can access it directly:
 
 rg_get_history()
 #>   challenge_id           timestamp passed
-#> 1    sum_evens 2026-10-20 23:04:48   TRUE
+#> 1    sum_evens 2026-10-20 23:30:04   TRUE
 ```
 
 This can be useful if you want to analyse your own progress further (for
