@@ -3,6 +3,10 @@
 
 <!-- badges: start -->
 
+[![CRAN
+status](https://www.r-pkg.org/badges/version/rgrind)](https://CRAN.R-project.org/package=rgrind)
+[![CRAN
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/rgrind)](https://CRAN.R-project.org/package=rgrind)
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <!-- badges: end -->
@@ -23,8 +27,14 @@ install beyond the package itself.
 
 ## Installation
 
-You can install the development version of rgrind from
-[GitHub](https://github.com/) with:
+Install the released version from CRAN:
+
+``` r
+install.packages("rgrind")
+```
+
+Or install the development version from
+[GitHub](https://github.com/DevWebWacky/rgrind):
 
 ``` r
 # install.packages("pak")
