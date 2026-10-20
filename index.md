@@ -16,8 +16,15 @@ install beyond the package itself.
 
 ## Installation
 
-You can install the development version of rgrind from
-[GitHub](https://github.com/) with:
+Install the released version from CRAN:
+
+``` r
+
+install.packages("rgrind")
+```
+
+Or install the development version from
+[GitHub](https://github.com/DevWebWacky/rgrind):
 
 ``` r
 
